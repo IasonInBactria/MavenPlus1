@@ -3,7 +3,6 @@ package com.argo.service;
 
 import com.argo.config.SpringConfig;
 import com.argo.domain.Book;
-import com.argo.service.impl.service.BookService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

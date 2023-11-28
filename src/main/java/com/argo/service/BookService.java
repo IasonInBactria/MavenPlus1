@@ -1,4 +1,4 @@
-package com.argo.service.impl.service;
+package com.argo.service;
 
 import com.argo.domain.Book;
 import org.springframework.transaction.annotation.Transactional;

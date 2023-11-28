@@ -19,7 +19,7 @@ public class MybatisConfig {
     @Bean
     public MapperScannerConfigurer mapperScannerConfigurer(){
         MapperScannerConfigurer mapperScannerConfigurer = new MapperScannerConfigurer();
-        mapperScannerConfigurer.setBasePackage("com.argo.mapper");
+        mapperScannerConfigurer.setBasePackage("com.argo.dao");
         return mapperScannerConfigurer;
     }
 }
